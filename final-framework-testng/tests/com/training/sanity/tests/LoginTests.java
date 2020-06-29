@@ -1,10 +1,15 @@
 package com.training.sanity.tests;
 
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -40,6 +45,7 @@ public class LoginTests {
 		driver.get(baseUrl);
 	}
 	
+	
 	@AfterMethod
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
@@ -47,8 +53,8 @@ public class LoginTests {
 	}
 	@Test
 	public void validLoginTest() {
-		loginPOM.sendUserName("admin");
-		loginPOM.sendPassword("admin@123");
+		loginPOM.sendUserName("payalahuja93@gmail.com");
+		loginPOM.sendPassword("Selenium_08");
 		loginPOM.clickLoginBtn(); 
 		screenShot.captureScreenShot("First");
 	}
