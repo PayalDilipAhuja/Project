@@ -14,6 +14,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.training.generics.ScreenShot;
+import com.training.pom.ChangePassPOM;
 import com.training.pom.LoginPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
@@ -24,7 +25,7 @@ public class Changepassword {
 
 	private WebDriver driver;
 	private String baseUrl;
-	private com.training.pom.PasswordresetPOM PasswordresetPOM;
+	private ChangePassPOM ChangePassPOM;
 	private static Properties properties;
 	private ScreenShot screenShot;
 
@@ -38,7 +39,7 @@ public class Changepassword {
 	@BeforeMethod
 	public void setUp() throws Exception {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
-		PasswordresetPOM = new com.training.pom.PasswordresetPOM(driver); 
+		ChangePassPOM = new com.training.pom.ChangePassPOM(driver); 
 		baseUrl = properties.getProperty("baseURL");
 		screenShot = new ScreenShot(driver); 
 		// open the browser 
@@ -53,11 +54,11 @@ public class Changepassword {
 	}
 	@Test
 	public void validLoginTest() throws InterruptedException {
-		PasswordresetPOM.Login();
-		PasswordresetPOM.sendUserName("payalahuja29@yahoo.com");
-		PasswordresetPOM.sendPassword("Selenium_08");
-		PasswordresetPOM.clickLoginBtn(); 
-		PasswordresetPOM.Changepasswrd();
+		ChangePassPOM.Login();
+		ChangePassPOM.sendUserName("payalahuja29@yahoo.com");
+		ChangePassPOM.sendPassword("Selenium_09");
+		ChangePassPOM.clickLoginBtn(); 
+		ChangePassPOM.Changepasswrd();
 		Thread.sleep(1000);
 		screenShot.captureScreenShot("First");
 	}

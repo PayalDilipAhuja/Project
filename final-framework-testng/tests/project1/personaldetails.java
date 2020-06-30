@@ -55,7 +55,7 @@ public class personaldetails {
 	public void validLoginTest() throws InterruptedException {
 		PasswordresetPOM.Login();
 		PasswordresetPOM.sendUserName("payalahuja29@yahoo.com");
-		PasswordresetPOM.sendPassword("Selenium_08");
+		PasswordresetPOM.sendPassword("Selenium_09");
 		PasswordresetPOM.clickLoginBtn(); 
 		PasswordresetPOM.EditAccdetails();
 		Thread.sleep(1000);

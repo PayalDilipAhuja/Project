@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24534" started-at="2020-06-29T23:24:10 IST" finished-at="2020-06-29T23:24:35 IST">
+  <suite name="Default suite" duration-ms="24440" started-at="2020-06-30T10:06:31 IST" finished-at="2020-06-30T10:06:56 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24534" started-at="2020-06-29T23:24:10 IST" finished-at="2020-06-29T23:24:35 IST">
-      <class name="com.training.sanity.tests.Changepassword">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Changepassword@2a17b7b6]" name="setUpBeforeClass" is-config="true" duration-ms="11" started-at="2020-06-29T23:24:10 IST" finished-at="2020-06-29T23:24:10 IST">
+    <test name="Default test" duration-ms="24440" started-at="2020-06-30T10:06:31 IST" finished-at="2020-06-30T10:06:56 IST">
+      <class name="project1.Changepassword">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:project1.Changepassword@2a17b7b6]" name="setUpBeforeClass" is-config="true" duration-ms="18" started-at="2020-06-30T10:06:31 IST" finished-at="2020-06-30T10:06:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Changepassword@2a17b7b6]" name="setUp" is-config="true" duration-ms="13499" started-at="2020-06-29T23:24:10 IST" finished-at="2020-06-29T23:24:24 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:project1.Changepassword@2a17b7b6]" name="setUp" is-config="true" duration-ms="14196" started-at="2020-06-30T10:06:31 IST" finished-at="2020-06-30T10:06:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Changepassword@2a17b7b6]" name="validLoginTest" duration-ms="9047" started-at="2020-06-29T23:24:24 IST" finished-at="2020-06-29T23:24:33 IST">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:project1.Changepassword@2a17b7b6]" name="validLoginTest" duration-ms="8315" started-at="2020-06-30T10:06:45 IST" finished-at="2020-06-30T10:06:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Changepassword@2a17b7b6]" name="tearDown" is-config="true" duration-ms="1935" started-at="2020-06-29T23:24:33 IST" finished-at="2020-06-29T23:24:35 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:project1.Changepassword@2a17b7b6]" name="tearDown" is-config="true" duration-ms="1849" started-at="2020-06-30T10:06:54 IST" finished-at="2020-06-30T10:06:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Changepassword -->
+      </class> <!-- project1.Changepassword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
