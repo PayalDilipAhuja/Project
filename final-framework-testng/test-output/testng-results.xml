@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24440" started-at="2020-06-30T10:06:31 IST" finished-at="2020-06-30T10:06:56 IST">
+  <suite name="Default suite" duration-ms="19814" started-at="2020-07-01T11:32:09 IST" finished-at="2020-07-01T11:32:29 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24440" started-at="2020-06-30T10:06:31 IST" finished-at="2020-06-30T10:06:56 IST">
-      <class name="project1.Changepassword">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:project1.Changepassword@2a17b7b6]" name="setUpBeforeClass" is-config="true" duration-ms="18" started-at="2020-06-30T10:06:31 IST" finished-at="2020-06-30T10:06:31 IST">
+    <test name="Default test" duration-ms="19814" started-at="2020-07-01T11:32:09 IST" finished-at="2020-07-01T11:32:29 IST">
+      <class name="project2.PlaceOrder">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:project2.PlaceOrder@2a17b7b6]" name="setUpBeforeClass" is-config="true" duration-ms="12" started-at="2020-07-01T11:32:09 IST" finished-at="2020-07-01T11:32:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:project1.Changepassword@2a17b7b6]" name="setUp" is-config="true" duration-ms="14196" started-at="2020-06-30T10:06:31 IST" finished-at="2020-06-30T10:06:45 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:project2.PlaceOrder@2a17b7b6]" name="setUp" is-config="true" duration-ms="13939" started-at="2020-07-01T11:32:09 IST" finished-at="2020-07-01T11:32:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:project1.Changepassword@2a17b7b6]" name="validLoginTest" duration-ms="8315" started-at="2020-06-30T10:06:45 IST" finished-at="2020-06-30T10:06:54 IST">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:project2.PlaceOrder@2a17b7b6]" name="validLoginTest" duration-ms="3731" started-at="2020-07-01T11:32:23 IST" finished-at="2020-07-01T11:32:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:project1.Changepassword@2a17b7b6]" name="tearDown" is-config="true" duration-ms="1849" started-at="2020-06-30T10:06:54 IST" finished-at="2020-06-30T10:06:56 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:project2.PlaceOrder@2a17b7b6]" name="tearDown" is-config="true" duration-ms="2082" started-at="2020-07-01T11:32:27 IST" finished-at="2020-07-01T11:32:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- project1.Changepassword -->
+      </class> <!-- project2.PlaceOrder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
