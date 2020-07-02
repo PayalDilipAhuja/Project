@@ -54,9 +54,11 @@ public class PlaceOrder {
 	@Test
 	public void validLoginTest() throws InterruptedException {
 		OrderplacePOM.ShopUniform();
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		OrderplacePOM.dropdown2();
 		OrderplacePOM.addtocart();
+		OrderplacePOM.mouseover();
+		OrderplacePOM.GuestAcc();
 		screenShot.captureScreenShot("First");
 	}
 }

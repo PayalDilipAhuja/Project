@@ -28,6 +28,8 @@ public class OrderplacePOM {
 	@FindBy(xpath="//button[@class='btn btn-primary btn-lg btn-block']")
 	private WebElement btn;
 	
+	@FindBy(xpath="//div[@id='collapse-checkout-option']//div[2]//label[1]//input[1]")
+	private WebElement radiobtn;
 	
 	
 	
@@ -35,7 +37,7 @@ public class OrderplacePOM {
 	
 	public void ShopUniform() throws InterruptedException {
 		
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		//this.Shop.clear();
 		this.Shop.click();
 		
@@ -53,6 +55,20 @@ public class OrderplacePOM {
 		//this.Shop.clear();
 		this.btn.click();
 		
+	}
+	
+	public void mouseover()
+	{
+		WebElement addtocart = driver.findElement(By.xpath("//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle']"));
+		 Actions act=new Actions(driver);
+		 act.moveToElement(addtocart).click().build().perform();
+		 WebElement checkout = driver.findElement(By.xpath("//strong[contains(text(),'Checkout')]"));
+		 act.moveToElement(checkout).click().build().perform();
+	}
+	
+	public void GuestAcc() {
+		this.radiobtn.clear();
+		this.radiobtn.click();
 	}
 
 }
